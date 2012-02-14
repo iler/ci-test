@@ -1,0 +1,57 @@
+name = CI_test
+description = CI-test profile.
+core = 7.x
+
+; -----------------------------------------------------------------------------
+;                                  Modules
+; -----------------------------------------------------------------------------
+
+; Required Drupal core modules
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = comment
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = poll
+dependencies[] = taxonomy
+dependencies[] = toolbar
+dependencies[] = rdf
+dependencies[] = search
+
+; Required contrib modules
+dependencies[] = admin_menu
+dependencies[] = backup_migrate
+dependencies[] = comment_notify
+dependencies[] = ctools
+dependencies[] = email
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = features
+dependencies[] = invisimail
+dependencies[] = jquery_update
+dependencies[] = link
+dependencies[] = module_filter
+dependencies[] = mollom
+dependencies[] = pathauto
+dependencies[] = references
+dependencies[] = rules
+;dependencies[] = rules_ui
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = views
+dependencies[] = views_ui
+
+; Required custom modules
+
+
+; Required features
